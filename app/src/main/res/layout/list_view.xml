@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:id="@+id/lnIma"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            app:civ_border_color="#80000000"
+            app:civ_border_width="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/lnIma"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="HighLand Coffee"
+            android:textColor="@color/colorBlack"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Coffee Shop"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#aaa5a5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Coffee Shop"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#aaa5a5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_update_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Coffee Shop"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#aaa5a5"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
